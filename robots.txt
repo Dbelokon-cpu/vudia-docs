@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dbelokon-cpu.github.io/vudia-docs/sitemap.xml

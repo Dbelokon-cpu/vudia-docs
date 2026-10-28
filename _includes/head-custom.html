@@ -1,0 +1,2 @@
+{% if page.jsonld %}<script type="application/ld+json">{{ page.jsonld | jsonify }}</script>{% endif %}
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}

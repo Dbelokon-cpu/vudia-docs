@@ -10,5 +10,8 @@ Documentation for Vudia's Atlassian Marketplace apps.
 
 ## Cost Tracker for Jira
 
+- [Overview and FAQ](cost-tracker/index.md)
+- [Guide: how to track project cost, budget and profit in Jira](guides/jira-project-cost-tracking.md)
+- [Get it on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/2743016176/cost-tracker-financial-budget-rates-and-profit-for-jira?hosting=cloud&tab=overview)
 - [Privacy policy](cost-tracker/privacy-policy.md)
 - [Support](cost-tracker/support.md)

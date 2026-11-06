@@ -25,8 +25,9 @@ nothing to sign in to: you use the same account as in Jira.
 14. [Activities](#activities)
 15. [Settings](#settings)
 16. [Linking to Jira and sharing records](#linking-to-jira-and-sharing-records)
-17. [Good to know](#good-to-know)
-18. [Privacy](#privacy)
+17. [Jira Automation](#jira-automation)
+18. [Good to know](#good-to-know)
+19. [Privacy](#privacy)
 
 ## Finding your way around
 
@@ -371,6 +372,32 @@ due today or due in the next 7 days. Click one to open it in the CRM, or press
 **Share a record:** every card has its own web address. When you open a card,
 the address in your browser changes. Copy it and paste it into a Jira
 comment, and whoever opens it lands on the same record.
+
+## Jira Automation
+
+Add Dealtrail CRM steps to a Jira Automation rule, so that something happening
+in Jira updates the CRM. Search for "Dealtrail CRM" when adding an action:
+
+- **Move deals in Dealtrail CRM** moves the open deals linked to a work item to
+  a stage. Won and lost deals stay as they are, and a work item with no deals is
+  skipped without an error.
+- **Create lead in Dealtrail CRM** creates a lead, linked to the work item if
+  you keep `{{issue.key}}`.
+- **Add note in Dealtrail CRM** adds a note to every linked record of the type
+  you choose.
+- **Create task in Dealtrail CRM** creates a task on the work item's linked
+  record, taking a deal first, then a contact, company or lead.
+
+Text fields accept smart values such as `{{issue.summary}}`. For example: when a
+work item moves to Done, move its deals to Won.
+
+The first time you add a step, Jira asks you to connect Automation to the app.
+Rule runs then act as the person on that connection, and the record's history
+shows their name. If a step fails, the rule stops, and the reason is in the
+rule's audit log.
+
+Rules can't start from a change in the CRM: Jira doesn't let apps add their own
+triggers.
 
 ## Good to know
 

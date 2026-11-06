@@ -192,7 +192,7 @@ two columns: the details on one side, and three tabs on the other.
 
 - **Tasks**: tasks tied to this record, with a box to add a new one.
 - **Notes**: type in the *Add a note…* box and add it. Notes can be up to
-  2000 characters. Notes are included in search.
+  2000 characters.
 - **Timeline**: every change made to the record, with who did it and when,
   for example *rating: Cold → Hot*.
 
@@ -413,9 +413,9 @@ triggers.
 - **Not included on purpose:** email, calendar and file attachments on
   records, email notifications and multiple pipelines. Reminders are the
   **My CRM follow-ups** dashboard gadget and the counts on the side navigation.
-- **Large data sets:** the app loads all records when it opens, so it is
-  comfortable up to a few thousand per section. If it starts to feel slow,
-  tell your administrator.
+- **Large data sets:** each section loads its own records when you open it,
+  and sections are designed for up to 5,000 records. If one starts to feel
+  slow, tell your administrator.
 
 ## Privacy
 

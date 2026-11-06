@@ -120,7 +120,8 @@ You can set a different probability on a single deal if you know better.
 **Weighted pipeline** is each open deal's amount multiplied by its probability.
 It is a more realistic forecast than the raw total.
 
-Change a stage from the deal's stage selector. There is no drag and drop.
+Change a stage by dragging the card to another column on the Kanban board, or
+from the deal's stage selector.
 
 **Won and Lost:** press **Mark as Won** or **Mark as Lost** on the deal. You
 choose a reason (for example *Best Price* or *Product Fit* for a win, *Lost to

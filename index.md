@@ -4,6 +4,8 @@ Documentation for Vudia's Atlassian Marketplace apps.
 
 ## Dealtrail CRM
 
+- [Overview and FAQ](crm-for-jira/index.md)
+- [Guide: how to manage leads, contacts and deals in Jira](guides/jira-crm-leads-contacts-deals.md)
 - [User guide](crm-for-jira/user-guide.md)
 - [Privacy policy](crm-for-jira/privacy-policy.md)
 - [Support](crm-for-jira/support.md)

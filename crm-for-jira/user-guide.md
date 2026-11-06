@@ -353,10 +353,12 @@ comment, and whoever opens it lands on the same record.
 - **Dates** are typed as `YYYY-MM-DD`, for example `2026-11-30`. There is no
   date picker.
 - **Saving takes a moment.** Wait for the window to close before you move on.
+- **Need more room?** The arrow at the top of the side menu collapses it to a
+  narrow column of icons; hover over an icon to see its name. The app remembers
+  your choice, for you alone.
 - **Not included on purpose:** email, calendar and file attachments on
-  records, email notifications, multiple pipelines, and drag and drop.
-  Reminders are the **My CRM follow-ups** dashboard gadget and the counts on
-  the side navigation.
+  records, email notifications and multiple pipelines. Reminders are the
+  **My CRM follow-ups** dashboard gadget and the counts on the side navigation.
 - **Large data sets:** the app loads all records when it opens, so it is
   comfortable up to a few thousand per section. If it starts to feel slow,
   tell your administrator.

@@ -336,6 +336,32 @@ When a work item is moved to another project, or a project's key is renamed,
 its links follow it to the new key within a few minutes, and the change is
 recorded on each record's timeline.
 
+**Find work items by their CRM records:** every linked work item carries four
+read-only fields: **Dealtrail Deals**, **Dealtrail Leads**, **Dealtrail
+Contacts** and **Dealtrail Companies**. They follow the record as it changes,
+and you can search on them in JQL, use them in filters and boards, and add
+them as list columns:
+
+| Field | You can search by |
+|---|---|
+| Dealtrail Deals | Name, Stage, Amount, CloseDate, Company, Owner |
+| Dealtrail Leads | Name, Status, Rating, Source, Company, Assignee |
+| Dealtrail Contacts | Name, Title, Company, Owner |
+| Dealtrail Companies | Name, Industry, Country, Owner |
+
+For example:
+
+```
+"Dealtrail Deals.Stage" = "Negotiation"
+"Dealtrail Deals.Owner" = currentUser()
+"Dealtrail Leads.Status" = "Qualified" AND status != Done
+"Dealtrail Deals" is not EMPTY
+```
+
+A Jira administrator can add the fields to a work item screen to show them
+there; search works without that. Anyone who can see the work item can read
+these fields, so they hold no emails or phone numbers.
+
 **Your follow-ups on a Jira dashboard:** add the **My CRM follow-ups** gadget
 to a Jira dashboard (**Edit** the dashboard, then **Add gadget**). It lists
 your open CRM tasks and the next steps of the deals you own that are overdue,

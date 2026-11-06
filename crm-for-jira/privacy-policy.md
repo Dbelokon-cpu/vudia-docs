@@ -21,6 +21,13 @@ permissions of the person using it: user profiles (to show names and check that
 an owner or assignee is a real user), work items your users link to records
 (key, summary, status), and whether the person is a Jira administrator.
 
+When a record is linked to a Jira work item, the app also writes a short copy of
+its details (such as name, deal stage and amount, lead status, company and
+owner, but never email addresses or phone numbers) to the app's read-only
+custom fields on that work item, so that it can be found with Jira search.
+Anyone who can see the work item can read those fields. They are updated when
+the record changes and cleared when it is unlinked or deleted.
+
 ## Personal data
 
 - About your customers and prospects, as your users type them: names, job

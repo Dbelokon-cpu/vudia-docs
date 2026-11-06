@@ -1,10 +1,10 @@
-# CRM for Jira: User Guide
+# Dealtrail CRM: User Guide
 
-CRM for Jira keeps your sales pipeline inside Jira. You track leads, contacts,
+Dealtrail CRM keeps your sales pipeline inside Jira. You track leads, contacts,
 companies, deals, products and tasks in one place, and you can link any record
 to a Jira work item.
 
-Open it from the **Apps** menu in Jira, then choose **CRM for Jira**. There is
+Open it from the **Apps** menu in Jira, then choose **Dealtrail CRM**. There is
 nothing to sign in to: you use the same account as in Jira.
 
 ## Contents
@@ -99,8 +99,8 @@ Existing Business or Renewal), the contact and the company, and the owner.
 
 ### Stages
 
-Every deal is in one of six stages. Each stage has a default chance of
-winning:
+Every deal is in one stage of your pipeline. A new workspace starts with
+these, each with a default chance of winning:
 
 | Stage | Win probability |
 |---|---|
@@ -110,6 +110,10 @@ winning:
 | Proposal | 75% |
 | Won | 100% |
 | Lost | 0% |
+
+A Jira administrator can change the stages before Won and Lost in
+**Settings → Deal Stages** (see [Settings](#settings)). Won and Lost are always
+there and always last.
 
 You can set a different probability on a single deal if you know better.
 **Weighted pipeline** is each open deal's amount multiplied by its probability.
@@ -283,6 +287,21 @@ type. Only the most recent 500 entries are kept.
   everywhere; it does not convert existing amounts.
 - **Stale deal threshold**: days without a stage change before a deal is
   flagged stale, from 1 to 365 (default 14).
+- **Deal Stages** (Jira administrators): the stages a deal moves through
+  before it is won or lost. Rename them, change their order with **Up** and
+  **Down**, set each one's win probability, add up to 12 with **Add Stage**,
+  or **Remove** one. If deals are still in a stage you remove, choose the
+  stage they move to; they move when you press **Save Stages**, and the move is
+  recorded on each deal's timeline. Won and Lost cannot be changed.
+- **Custom Fields** (Jira administrators): fields of your own on contacts,
+  companies, deals and leads, up to 15 per record type. Pick the record type,
+  press **Add Field**, name it and choose its type: **Text**, **Number**,
+  **Date** (typed as `YYYY-MM-DD`) or **Dropdown** (list the options, separated
+  by commas). Then press **Save Fields**. Custom fields appear at the bottom of
+  the record's form, in a **More fields** box on its card, and as columns in
+  its CSV export. You can rename a field, reorder it and edit a dropdown's
+  options later; its type is fixed once it is added. Removing a field hides
+  its values, and they are cleared from a record the next time it is saved.
 - **Data administration** (Jira administrators):
   - **Export All Data** as one CSV for backup.
   - **Load Sample Data** adds a small example pipeline (companies, contacts,
@@ -305,6 +324,24 @@ key such as `PROJ-123` and save. The app checks the item exists and that you can
 see it, then shows its summary and status next to the record. Use it to point
 a deal at the ticket that delivers it.
 
+**See CRM records on the work item:** every Jira work item has a **CRM** panel
+in its details sidebar. Expand it to see the deals, contacts, companies and
+leads linked to that work item, with the deal's stage and amount or the
+contact's company and email. Click a name to open its card in the CRM.
+**Link a CRM record** links another one from right there: pick the record type,
+type to search by name, press **Link**. **Unlink** removes a link. A record
+links to one work item at a time, so linking it here moves it from wherever it
+was linked before. Links and unlinks are recorded on the record's timeline.
+When a work item is moved to another project, or a project's key is renamed,
+its links follow it to the new key within a few minutes, and the change is
+recorded on each record's timeline.
+
+**Your follow-ups on a Jira dashboard:** add the **My CRM follow-ups** gadget
+to a Jira dashboard (**Edit** the dashboard, then **Add gadget**). It lists
+your open CRM tasks and the next steps of the deals you own that are overdue,
+due today or due in the next 7 days. Click one to open it in the CRM, or press
+**Done** to complete a task. Each person sees their own.
+
 **Share a record:** every card has its own web address. When you open a card,
 the address in your browser changes. Copy it and paste it into a Jira
 comment, and whoever opens it lands on the same record.
@@ -317,8 +354,9 @@ comment, and whoever opens it lands on the same record.
   date picker.
 - **Saving takes a moment.** Wait for the window to close before you move on.
 - **Not included on purpose:** email, calendar and file attachments on
-  records, notifications (Jira already has its own), multiple pipelines and
-  custom stages, and drag and drop.
+  records, email notifications, multiple pipelines, and drag and drop.
+  Reminders are the **My CRM follow-ups** dashboard gadget and the counts on
+  the side navigation.
 - **Large data sets:** the app loads all records when it opens, so it is
   comfortable up to a few thousand per section. If it starts to feel slow,
   tell your administrator.

@@ -2,7 +2,7 @@
 
 Documentation for Vudia's Atlassian Marketplace apps.
 
-## CRM for Jira
+## Dealtrail CRM
 
 - [User guide](crm-for-jira/user-guide.md)
 - [Privacy policy](crm-for-jira/privacy-policy.md)

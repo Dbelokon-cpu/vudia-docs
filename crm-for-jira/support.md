@@ -1,4 +1,4 @@
-# Support: CRM for Jira
+# Support: Dealtrail CRM
 
 - **Contact:** our support email (to be published here shortly)
 - **Hours / response target:** business days

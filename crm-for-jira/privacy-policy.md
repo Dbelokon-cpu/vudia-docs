@@ -1,10 +1,10 @@
-# Privacy policy: CRM for Jira
+# Privacy policy: Dealtrail CRM
 
 Effective date: 17 October 2026
 
 ## Who we are
 
-CRM for Jira ("the app") is provided by Vudia. Contact for privacy questions: our privacy email (to be published here shortly).
+Dealtrail CRM ("the app") is provided by Vudia. Contact for privacy questions: our privacy email (to be published here shortly).
 
 ## What the app does with your data
 
@@ -14,8 +14,9 @@ send your data to us or to any third party. We cannot see the data your site
 holds in the app.
 
 The app stores, in Forge storage for your site, the records your users enter:
-leads, contacts, companies, deals, products, tasks, notes, saved views,
-settings, and an audit trail of changes. It reads from your Jira site, with the
+leads, contacts, companies, deals, products, tasks, notes, values of the
+custom fields your administrator defines, saved views, settings, and an audit
+trail of changes. It reads from your Jira site, with the
 permissions of the person using it: user profiles (to show names and check that
 an owner or assignee is a real user), work items your users link to records
 (key, summary, status), and whether the person is a Jira administrator.

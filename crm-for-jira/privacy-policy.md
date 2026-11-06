@@ -48,8 +48,8 @@ leads, customers and deals in Jira. No advertising, profiling or sale of data.
 ## Sharing and transfers
 
 We do not receive or share your data. Data is processed and stored by
-Atlassian as the Forge platform provider; see Atlassian's privacy policy and
-Forge data-residency documentation for where and how.
+Atlassian as the Forge platform provider; see
+[Atlassian's privacy policy](https://www.atlassian.com/legal/privacy-policy).
 
 ## Atlassian accounts that are closed
 

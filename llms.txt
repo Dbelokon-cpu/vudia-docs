@@ -18,6 +18,6 @@
 
 - [Overview and FAQ](https://dbelokon-cpu.github.io/vudia-docs/crm-for-jira/)
 - [Guide: how to manage leads, contacts and deals in Jira](https://dbelokon-cpu.github.io/vudia-docs/guides/jira-crm-leads-contacts-deals.html)
-- [User guide](https://dbelokon-cpu.github.io/vudia-docs/crm-for-jira/user-guide.html)
-- [Privacy policy](https://dbelokon-cpu.github.io/vudia-docs/crm-for-jira/privacy-policy.html)
-- [Support](https://dbelokon-cpu.github.io/vudia-docs/crm-for-jira/support.html)
+- [Documentation](https://dbelokon-cpu.github.io/crm-for-jira-docs/)
+- [Privacy policy](https://dbelokon-cpu.github.io/crm-for-jira-docs/privacy.html)
+- [Support](https://dbelokon-cpu.github.io/crm-for-jira-docs/faq.html#support)

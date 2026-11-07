@@ -1,2 +1,4 @@
 title: Vudia apps for Jira
 theme: jekyll-theme-primer
+plugins:
+  - jekyll-redirect-from

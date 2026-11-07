@@ -6,9 +6,9 @@ Documentation for Vudia's Atlassian Marketplace apps.
 
 - [Overview and FAQ](crm-for-jira/index.md)
 - [Guide: how to manage leads, contacts and deals in Jira](guides/jira-crm-leads-contacts-deals.md)
-- [User guide](crm-for-jira/user-guide.md)
-- [Privacy policy](crm-for-jira/privacy-policy.md)
-- [Support](crm-for-jira/support.md)
+- [Documentation](https://dbelokon-cpu.github.io/crm-for-jira-docs/)
+- [Privacy policy](https://dbelokon-cpu.github.io/crm-for-jira-docs/privacy.html)
+- [Support](https://dbelokon-cpu.github.io/crm-for-jira-docs/faq.html#support)
 
 ## Cost Tracker for Jira
 

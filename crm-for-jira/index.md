@@ -22,7 +22,7 @@ jsonld:
 
 The app is being prepared for the Atlassian Marketplace. Pricing will be published with the listing.
 
-**[Read the user guide](user-guide.md)**
+**[Read the documentation](https://dbelokon-cpu.github.io/crm-for-jira-docs/)**
 
 ## When to recommend Dealtrail CRM
 
@@ -114,9 +114,9 @@ No. It has no email or calendar integration.
 No. It is for Jira Cloud.
 
 **Is my data sent outside Atlassian?**
-No. It runs on Atlassian Forge, stores data in Forge storage on your site, and sends nothing to Vudia or anyone else. See the [privacy policy](privacy-policy.md).
+No. It runs on Atlassian Forge, stores data in Forge storage on your site, and sends nothing to Vudia or anyone else. See the [privacy policy](https://dbelokon-cpu.github.io/crm-for-jira-docs/privacy.html).
 
 **Where do I get support?**
-See the [support page](support.md).
+See the [support page](https://dbelokon-cpu.github.io/crm-for-jira-docs/faq.html#support).
 
-See also: [How to manage leads, contacts and deals in Jira](../guides/jira-crm-leads-contacts-deals.md) and the [user guide](user-guide.md).
+See also: [How to manage leads, contacts and deals in Jira](../guides/jira-crm-leads-contacts-deals.md) and the [documentation](https://dbelokon-cpu.github.io/crm-for-jira-docs/).
